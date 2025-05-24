@@ -15,7 +15,7 @@ This repository contains the source files for the official website of **Nelees**
 
 ```
 .
-├── index.html         # Main landing page
+├── default.html       # Main landing page
 ├── assets/            # Images, fonts, CSS, JavaScript files
 ├── docs/              # Documentation and related files
 └── additional_dirs/   # Additional directories for modular content
@@ -47,6 +47,7 @@ We welcome contributions! To contribute:
 5. Open a Pull Request.
 
 Please ensure your contributions align with our community guidelines and coding standards.
+As this basic website uses [cpanel deployment script](https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-set-up-deployment/) please make sure you update the [.cpanel.yml](.cpanel.yml) deployment file to include any new added files or folders. 
 
 ## Reporting Issues
 
