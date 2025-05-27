@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nelees One – Dev Pitch-In</title>
+  <style>
+    body {
+      background-color: #111827;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1f2937;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      color: #9ca3af;
+    }
+
+    section {
+      padding: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+      color: #d1d5db;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .alink {
+      background-color: #facc15;
+      color: #1f2937;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.2s ease;
+    }
+
+    .alink:hover {
+      background-color: #fde68a;
+    }
+
+    footer {
+      background-color: #1f2937;
+      text-align: center;
+      padding: 1.5rem;
+      color: #9ca3af;
+      font-size: 0.875rem;
+    }
+      .content {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 100%;
+      gap: 2rem;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+
+    .left {
+      flex: 0 0 20%;
+      padding-left: 40px;
+      margin-left: 20px;
+      float: left;
+      border-right: 1px solid #374151;
+    }
+
+    .right {
+      flex: 0 0 70%;
+      margin-left: -20px;
+      padding-left: 20px;
+      word-wrap: break-word;}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="https://www.nelees.com" target="_blank">
+      <img src="https://nelees.com/assets/logo_white.png" alt="Nelees Logo" style="height: 100px; float: left; margin-left: -2rem;">
+    </a>
+    <h1>Nelees One</h1>
+    <p>Join the modular ceiling revolution (yes, really).</p>
+  </header>
+
+  <div class="content">
+      <div class="left">
+        <h2>Nelees One: Product Scope</h2>
+       <p><strong>Base Version (Short Term):</strong></p>        
+        <ul>
+          <li>Central 24V bus</li>
+          <li>Hexagon tile design</li>
+          <li>ESP32 / nRF52 MCU support</li>
+          <li>BLE, Wi-Fi, Thread</li>
+          <li>Modular sensors, audio, lighting</li>
+        </ul>
+        
+        <p><strong>Future Potential (Long Term):</strong></p>
+        <ul>
+          <li>Wi-Fi Access Point module (Unifi integration)</li>
+          <li>Infrared blaster / receiver module</li>
+          <li>AI / Voice assistant integration module</li>
+          <li>Multi-room audio coordination (Sonos integration)</li>
+          <li>Online configurator for plug and play system </li>
+          <li>... community driven modules</li>
+        </ul>
+
+        <hr style="border: 0; height: 1px; background: #374151; margin: 2rem 0;">
+        <img src="https://nelees.com/assets/hex.png" alt="Hex Module" style="width: 60%; margin: 1rem auto; display: block; text-align: center;">
+        <p style="text-align: center; color: #9ca3af; font-size: 0.9rem;">Illustrative representation of a Nelees One modular system</p>
+      </div>
+
+      <div class="right">
+        <h2>What Is Nelees One?</h2>
+        <p>
+          Nelees One is a modular, open-source smart ceiling platform. Think lighting, sensors, Bluetooth audio, environmental monitors,
+          and more—integrated into a single ceiling-mounted unit. It's hexagonal, it's open, and it's designed to replace multiple different
+          devices with one elegant system that lives out of your way but does everything.
+        </p>
+        <h2>What You'll Actually Do</h2>
+        <ul>
+          <li>Write firmware using ESP-IDF or Zephyr to power the modules</li>
+          <li>Design PCB layouts for new add-on modules (sensors, lights, audio, etc)</li>
+          <li>Build a 24V power distribution interface and modular connectors</li>
+          <li>Design enclosures that mount cleanly and securely on ceilings</li>
+          <li>Implement Matter integration and local-first smart home logic</li>
+          <li>Help define our SDK and documentation for future contributors</li>
+        </ul>
+
+        <h2>Why We're Doing This</h2>
+        <p>
+          Smart home products are a dumpster fire of closed ecosystems, annoying setup rituals, and data-grabbing nonsense.
+          We're building Nelees One to be open, modular, and actually smart. Join us at the start.
+        </p>
+
+        <h2>What We Need</h2>
+        <ul>
+          <li>Embedded devs (ESP32, nRF52, Zephyr, ESP-IDF)</li>
+          <li>PCB wizards who laugh in KiCad</li>
+          <li>Enclosure designers who fear no 3D printer</li>
+          <li>People who yell at protocols until they work</li>
+        </ul>
+
+        <h2>What You Get</h2>
+        <ul>
+          <li>Revenue share opportunities based on your contribution level</li>
+          <li>Public credit and respect from fellow nerds</li>
+          <li>Discounted hardware (because you earned it)</li>
+          <li>Glorious bragging rights. Possibly a hoodie.</li>
+          <li>Opportunity to design new community products: HVAC, smart home appliances, Matter-based devices</li>
+        </ul>
+
+        <div>
+          <h3>Pitch In Now</h3>
+          <p>Send us your GitHub, a short message, or a blurry screenshot of your last PCB disaster.</p>
+          <a class="alink" href="mailto:dev@nelees.com">Email Us → dev@nelees.com</a>
+        </div>
+      </div>
+  </div>
+  <footer>
+     © 2025 Nelees Project – Powered by Too Much Coffee & Great Vision
+    <br><a href="https://nelees.com" style="color: #facc15; text-decoration: none;"> → nelees.com</a>
+  </footer>
+</body>
+</html>
