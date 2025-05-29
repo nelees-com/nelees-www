@@ -107,6 +107,13 @@ li {
   background-color: #fde68a;
 }
 
+.hexImg {
+    width: 60%; 
+    margin: 1rem auto; 
+    display: block; 
+    text-align: center;
+}
+
 .content {
   display: flex;
   flex-wrap: nowrap;
