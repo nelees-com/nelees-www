@@ -1,93 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset=utf-8>
-<title>Nelees - People electronics</title>
-<meta name=author content="Awesome Projects SRL">
-<meta name=rating content=general>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel=icon href="https://hostico.ro/images/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="https://hostico.ro/images/favicon.ico">
-<style>
- 
-
- body {
-    /* Define the gradient background */
-    background: linear-gradient(-45deg, #2a92f3, #786af3, #a780e7, #1deb0a);
-    background-size: 200% 200%;
-    animation: gradientAnimation 10s ease infinite;
-
-    /* Set basic properties */
-    margin: 0;
-    height: 80vh;
-    font-family: Arial, sans-serif;
-}
-
-/* Keyframes for the gradient animation */
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-h1 {
-	color: black;
-	text-align: center;
-	margin: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 200%;
-	
-}
-.container {
-    /* Ensures the container takes up the full viewport */
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    height: 50vh; /* Full viewport height */
-}
-
-.centered-div {
-    /* Styling for the centered div */
-    
-    
-    font-family: Arial, Helvetica, sans-serif;
-	margin-left: 20px; margin-right: 20px;
-    text-align: left; /* Centers text inside the div */
-	font-size: 18px; line-height: 1.6;
-    
-    
-}
-img {
-	height: 200px;
-	width: 200px;
-}  
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nelees – Home</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <h1> <img src="/assets/logo.png"/></h1>
+  <header>
+    <img src="assets/logo_white.png" alt="Nelees Logo" >
+    <h1>Nelees is a Community</h1>
+    Open-source builders, engineers, and creators united around modular smart devices.
+  </header>
+  <div class="content" style="min-height: 75vh;">
+  <main class="grid">
 
-    <div class="container">
-        <div class="centered-div">
-
-			<strong>Nelees</strong> leads a <strong>global movement</strong> in the <strong>consumer electronics industry</strong>, 
-			championing <strong>open-source</strong> and <strong>open-hardware</strong> innovations created by 
-			<strong>people, for people</strong>. Nelees fosters a culture of <strong>ecological responsibility</strong>, 
-			<strong>collaboration</strong>, and <strong>forward-thinking innovation</strong>. By challenging existing market practices 
-			that prioritize <strong>profit over people</strong>, we are shaping a <strong>new era</strong> where 
-			technology is <strong>fair, inclusive, and accessible to all</strong>. Our mission is to deliver a 
-			<strong>secure</strong>, <strong>safe</strong>, and <strong>comfortable life</strong> for everyone today and into the future.
-			<div style="text-align: right; margin-top: 10px; font-style: italic;">
-				March 2025
-		   </div>
-		</div>
-
+    <div class="card">
+      <h2>Vision</h2>
+      <p>See where we're heading and why we're building it this way.</p>
+      <a href="nelees-vision.html">Read the Vision →</a>
     </div>
+        <div class="card">
+      <h2>Nelees One</h2>
+      <p>Meet Nelees One – the first product from our open hardware ecosystem.</p>
+      <a href="nelees-one.html">Explore →</a>
+    </div>
+    <div class="card">
+      <h2>Team</h2>
+      <p>Meet the contributors building the Nelees ecosystem.</p>
+      <a href="team.html">Meet the Team →</a>
+    </div>
+    <div class="card">
+      <h2>Get Involved</h2>
+      <p>Contribute hardware, firmware, or ideas.</p>
+      <a href="devp.html">Join the Mission →</a>
+    </div>
+  </main>
 </div>
+  <footer>
+ © 2025 Nelees Projects – Powered by Too Much Coffee & Great Community<br>
+  </footer>
 </body>
 </html>
