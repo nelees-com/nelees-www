@@ -58,6 +58,8 @@ footer {
   padding: 1rem;
   font-size: 0.875rem;
   color: #9ca3af;
+  position: sticky; 
+  top: 100vh;
 }
 
 section {
@@ -101,6 +103,8 @@ li {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
+  min-height: 80vh;
+
   gap: 2rem;
   padding: 2rem;
   box-sizing: border-box;
