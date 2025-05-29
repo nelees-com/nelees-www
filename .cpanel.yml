@@ -6,3 +6,6 @@ deployment:
     - /bin/cp default.html $DEPLOYPATH
     - /bin/cp pre-seed.html $DEPLOYPATH
     - /bin/cp devp.html $DEPLOYPATH
+    - /bin/cp team.html $DEPLOYPATH
+    - /bin/cp nelees-vision.html $DEPLOYPATH
+    - /bin/cp nelees-one.html $DEPLOYPATH
